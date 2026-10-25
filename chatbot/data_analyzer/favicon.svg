@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Data analytics icon">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#101b2c"/>
+      <stop offset="100%" stop-color="#09121d"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#bg)"/>
+  <rect x="16" y="16" width="96" height="96" rx="20" fill="#0f1d2d" opacity="0.8"/>
+
+  <g opacity="0.18" stroke="#dbeafe" stroke-width="2">
+    <path d="M30 36H98"/>
+    <path d="M30 52H98"/>
+    <path d="M30 68H98"/>
+    <path d="M30 84H98"/>
+  </g>
+
+  <g>
+    <rect x="30" y="63" width="10" height="27" rx="4" fill="url(#bar1)"/>
+    <rect x="46" y="54" width="10" height="36" rx="4" fill="url(#bar1)" opacity="0.85"/>
+    <rect x="62" y="44" width="10" height="46" rx="4" fill="url(#bar2)"/>
+    <rect x="78" y="35" width="10" height="55" rx="4" fill="url(#bar2)" opacity="0.88"/>
+  </g>
+
+  <path d="M24 76 C38 72, 48 58, 60 60 S80 47, 90 38 S102 24, 106 28" fill="none" stroke="url(#lineGrad)" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="106" cy="28" r="6" fill="#fbbf24"/>
+
+  <g transform="translate(87 28)" fill="#f8fafc">
+    <path d="M10 0 L18 0 L18 6 L10 6 Z" opacity="0.9"/>
+    <path d="M14 6 L24 6 L24 12 L14 12 Z" opacity="0.8"/>
+  </g>
+</svg>
